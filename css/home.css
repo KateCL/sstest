@@ -1,0 +1,680 @@
+
+
+@font-face {
+	font-family: avenir;
+	src:url(../fonts/avenir.ttc);
+}
+
+
+html, body {
+	width: 100%;
+	margin: 0px;
+}
+
+
+a {
+	display: block;
+	text-decoration: none;
+	
+}
+
+/* a:hover {
+	color: yellow;
+} */
+
+/*--------------------------------------------- TOP BAR */
+
+.topbar {
+	width: 100%;
+	height: 34px;
+	background:black;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+}
+
+#topbartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	left: 0%;
+	top: 0%;
+	text-align: center;
+	letter-spacing: 0.25em;
+}
+
+.searchbar {
+	height: 90%;
+	width: 15%;
+	background: white;
+	position: relative;
+	float: right;
+	top: -107.5%;
+	margin: 1px;
+}
+
+.searchglass {
+	width: 23px;
+	height: 23px;
+	position: relative;
+	margin: 1.5px;
+}
+
+
+
+/*--------------------------------------------- TITLE BAR */
+
+.titlebar {
+	width: 320px;
+	height: 190px;
+	background: white;
+	margin: auto;
+	
+}
+
+.title {
+	font-family: avenir;
+	font-size: 5em;
+	font-weight: bold;
+	color: black;
+	position: relative;
+	text-align: center;
+	line-height: 70px;
+	background: white;
+	z-index:+1;
+	top: 30%
+	
+}
+
+.socialmedia {
+	width: 300px;
+	height: 40px;
+	position: relative;
+	right: -145%;
+	top: 5px;
+	/*overflow: hidden; */
+	/*border: 1px black solid;*/
+}
+
+#fbsym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 18%;
+	top:72px;
+	float:left;
+	padding-right: 20px;
+}
+
+#twittersym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 13%;
+	top:72px;
+	float: left;
+	padding-right: 20px;
+}
+
+#instasym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 18%;
+	top:72px;
+	float: left;
+	padding-right: 20px;
+}
+
+#ytsym {
+	width: 39.2px;
+	height: 39.25px;
+	/*position: absolute;*/
+	/*right: 18%;*/
+	top: 72px;
+	float: left;
+	padding-right: 20px; 
+}
+
+.weatherbar {
+	width: 150px;
+	height: 63px;
+}
+
+#weather {
+	width: 150px;
+	height: 63px;
+	position: relative;
+	top: -100%;
+	right: -163%;
+}
+
+#titleline {
+	border-top: black 2px solid;
+	width: 97%;
+	height: 0px;
+	position: absolute;
+	top: 130px;
+	left: 1.5%;
+}
+
+/*--------------------------------------------- SECTION LINK BAR */
+
+
+.linkbar {
+	width: 100%;
+	height: 34px;
+	border-bottom: black 1px solid;
+	border-top: black 1px solid;
+	position:absolute;
+	top: 229px;
+	left: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.sportsbar {
+	width: 16.67%;
+	height: 100%;;
+	background: black;
+	float: left;
+	color: white;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+
+}
+
+.edubar {
+	width: 16.67%;
+	height: 100%;
+	background: white;
+	float: left;
+	font-family: avenir;
+	text-align: center;
+	color: black;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+
+}
+
+.artsbar {
+	width: 16.67%;
+	height: 100%;
+	background: black;
+	float: left;
+	color: white;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+}
+	
+.communitybar {
+	width: 16.67%;
+	height: 100%;
+	background: white;
+	float: left;
+	font-family: avenir;
+	text-align: center;
+	color: black;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+
+}
+
+.politicsbar {
+	width: 16.67%;
+	height: 100%;
+	background: black;
+	float: left;
+	color: white;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+
+}
+
+.businessbar {
+	width: 16.65%;
+	height: 100%;
+	background: white;
+	float: right;
+	font-family: avenir;
+	text-align: center;
+	top: -10px;
+	color: black;
+	padding-top: 6px;
+	letter-spacing: 0.03em;
+
+}
+
+/*--------------------------------------------- AD 1 */ 
+
+.ad1bar {
+	width: 872px;
+	height: 108px;
+	margin: auto;
+	position: relative;
+	top: 100px;	
+}
+
+#ad1 {
+	width: 872px;
+	height: 108px;
+	top: 100px;
+	
+}
+
+/*--------------------------------------------- FEATURED STORY */ 
+
+#featuredtitle {
+	font-family: avenir;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: #A7A9AB;
+	position: relative;
+	top: 150px;
+	letter-spacing: 0.1em;
+	
+}
+
+#featuredline {
+	border-top: yellow 4px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	top: 155px;
+}
+
+
+.featuredstory {
+	width: 99%;
+	height: 804px;
+	background: black;
+	position: absolute;
+	left: 0.5%;
+	top: 525px;
+}
+
+#rudenessimage {
+	width: 45%;
+	position: relative;
+	margin: 30px;
+	float: right;
+}
+
+#feattext1 {
+	font-family: avenir;
+	font-size: 1.3em;
+	color: white;
+}
+
+#feattext2 {
+	font-family: avenir;
+	font-size: 1.3em;
+	color: white;
+}
+/*--------------------------------------------- AD 2 */ 
+
+.ad2bar {
+	width: 727.5px;
+	height: 187.5px;
+	margin: 25px auto;
+	position: relative;
+	top: 1000px;
+}
+
+#ad2 {
+	width: 727.5px;
+	height: 187.5px;
+	top: 1000px;
+}
+
+/*--------------------------------------------- SPORTS STORY */ 
+
+.otherstories {
+	width: 99%;
+	height: 800px;
+	position: absolute;
+	left: 0.5%;
+	top: 1575px;
+}
+
+.sportsblock {
+	width: 49.75%;
+	height: 400px;
+	background: black;
+	position: relative;
+	float: left;
+	overflow: hidden;
+
+}
+
+
+#sportstitle {
+	font-family: avenir;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #A7A9AB;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	letter-spacing: 0.1em;
+	margin: 8px;
+}
+
+#sportsline {
+	border-top: yellow 2px solid;
+	width: auto;
+	height: 0px;
+	position: relative;
+	top: 0px;
+}
+
+#sportsimage {
+	width: 350px;
+	height: 360.5px;
+	position: relative;
+	float: left;
+	
+}
+
+.sportstitlebar {
+	width: 700px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	bottom: 13px;
+}
+
+#sportsstorytitle {
+	font-family: avenir;
+	font-size: 1.3em; 
+	font-weight: bold;
+	width: 354px;
+	position: relative;
+	color: white;
+	float: left;
+	/*margin-top: 20px;*/
+	text-align: center;
+	right: 8px;
+	top: 9px;
+}
+
+.sportsintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 313px;
+	height: 176px;
+	position: relative;
+	color: white;
+	float: left;
+	left: 17px;
+	top: 18px;
+	text-align: justify;
+}
+
+#sportsgradient {
+	height: 130px;
+	width: 320px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+	position: absolute;
+	bottom: 0px;
+}
+
+#sportsreadmore {
+	font-family: avenir;
+	font-size: .8;
+	font-weight: bold;
+	position:relative;
+	color: white;
+	text-align: center;
+	width: 55px;
+	top: 10px;
+	left: 121px;	
+	
+}
+
+/*--------------------------------------------- EDU STORY */ 
+
+.edublock {
+	width: 50%;
+	height: 400px;
+	background: white;
+	position: relative;
+	float: right;
+	/*border: black 1px solid;*/
+	overflow: hidden;
+
+}
+
+#edutitle {
+	font-family: avenir;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #A7A9AB;
+	position: relative;
+	/*top: 360px;*/
+	text-align: right;
+	letter-spacing: 0.1em;
+	margin: 8px;
+	
+}
+
+#eduline {
+	border-top: yellow 2px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	/*top: 316.5px;*/
+}
+
+#eduimage {
+	width: 361.5px;
+	height: 360.5px;
+	position: relative;
+	float: left;
+	/*top: -23.5px;*/
+
+}
+
+.edutitlebar {
+	width: 700px;
+	height: 37px;
+	background: white;
+	position: absolute;
+	top: 350px;
+}
+
+#edustorytitle {
+	font-family: avenir;
+	font-size: 1.4em; 
+	font-weight: bold;
+	width: 700px;
+	position: absolute;
+	color: black;
+	float: right;
+	margin-top: 4px;
+	margin-left: 9px; 
+	top: 5px;
+}
+
+.eduintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 290px;
+	height: 205px;
+	position: relative;
+	color: black;
+	float: left;
+	left: 27px;
+	top: 25px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.edugradient {
+	height: 130px;
+	width: 320px;
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	bottom: 0px;
+}
+
+#edureadmore {
+	font-family: avenir;
+	font-size: .8;
+	font-weight: bold;
+	position:relative;
+	color: white;
+	text-align: center;
+	width: 350px;	
+	
+}
+
+
+
+/*--------------------------------------------- COMM STORY */ 
+
+.commblock {
+	width: 49.5%;
+	height: 400px;
+	background: white;
+	position: relative;
+	float: left;
+	/*border: black 1px solid;*/
+	margin-top: 3px;
+	overflow: hidden;
+}
+
+#commtitle {
+	font-family: avenir;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #A7A9AB;
+	position: relative;
+	/*top: 360px;*/
+	text-align: left;
+	letter-spacing: 0.1em;
+	margin: 8px;
+	
+}
+
+#commline {
+	border-top: yellow 2px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	/*top: 316.5px;*/
+}
+
+.commimage {
+	width: 361.5px;
+	height: 361.5px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.commtitlebar {
+	width: 700px;
+	height: 37px;
+	background: white;
+	position: absolute;
+	top: 350px;
+}
+
+#commstorytitle {
+	font-family: avenir;
+	font-size: 1.4em; 
+	font-weight: bold;
+	width: 700px;
+	position: absolute;
+	color: black;
+	float: right;
+	margin-top: 4px;
+	margin-left: 9px; 
+	top: 5px;
+}
+
+.commintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 290px;
+	height: 205px;
+	position: relative;
+	color: black;
+	float: left;
+	left: 27px;
+	top: 25px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.commgradient {
+	height: 130px;
+	width: 320px;
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	bottom: 0px;
+}
+
+#commreadmore {
+	font-family: avenir;
+	font-size: .8;
+	font-weight: bold;
+	position:relative;
+	color: white;
+	text-align: center;
+	width: 350px;	
+	
+}
+
+/*--------------------------------------------- ARTS STORY */ 
+
+.artsblock {
+	width: 50%;
+	height: 400px;
+	background: black;
+	position: relative;
+	float: right;
+	margin-top: 3px;
+}
+
+/*--------------------------------------------- BOTTOM BAR */ 
+
+
+
+.bottombar {
+	width: 100%;
+	height: 61px;
+	background:black;
+	position:absolute;
+	top: 2378px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+}
+
+#bottombartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	left: 0.5%;
+	top: 0%;
+	text-align: center;
+	letter-spacing: 0.25em;
+	margin-top: 12px;
+	line-height: 1; 
+}
